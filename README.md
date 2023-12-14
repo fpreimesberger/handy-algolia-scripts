@@ -1,1 +1,0 @@
-# handy-algolia-scripts
