@@ -10,6 +10,8 @@ A collection of handy Algolia-related Node.js scripts using the [JavaScript API 
 - Copy an index between applications
 - Set up cron job to monitor record count
 - Delete Personalization user profile
+- Generate fake click and conversion events
+- Set up a cron job to generate fake click and conversion events
 
 ## Installation
 
