@@ -118,8 +118,8 @@ async function sendEvents() {
   }
 }
 
-// Every 2 hours, on the hour
-cron.schedule("* */2 * * *", () => {
+// Every hour at 2 min mark
+cron.schedule("2 * * * *", () => {
   console.log("Events sending", new Date());
   sendEvents();
 });
